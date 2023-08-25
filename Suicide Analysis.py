@@ -30,7 +30,6 @@ for set_ in (X_train,X_test):
     set_.drop(columns=['country-year','HDI for year','suicides/100k pop','suicides_no'],inplace=True)
 
 
-# In[222]:
 
 
 # just plotting the total number of suicides per age group
